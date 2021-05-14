@@ -11,7 +11,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am  Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
+I am  Music Bot, that lets you play music in your Telegram groups voice chat if you need any help ask here @CheemsUserbot.
 
 
 Use the buttons below to know more about me.""",
@@ -34,7 +34,7 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add Me", url="http://t.me/musicbot12robot?startgroup=true"
+                        "Add Me", url="http://t.me/musicbot13robot?startgroup=true"
                     )
                 ]
             ]
