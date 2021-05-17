@@ -445,7 +445,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@musicbot14robo userbot joined your chat</b>",
+                                  "<b>@patriciaXmusic userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -454,7 +454,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure @musicbot14robo is not banned in group."
-                                  "\n\nOr manually add @musicbot14robo to your Group and try again</b>",
+                                  "\n\nOr manually add @patriciaXmusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -462,7 +462,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} @musicbot14robo  not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name} @patriciaXmusic  not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -509,7 +509,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="⚡UPDATES⚡",
-                        url=f'https://t.me/CheemsUserbot')
+                        url=f'https://t.me/patricia_updates')
 
                 ],
                 [       
@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "musicbot14robo"
+        user.first_name =  "patriciaXmusic"
     usar = user
     wew = usar.id
     try:
@@ -593,7 +593,7 @@ async def deezer(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@musicbot14robo joined your chat</b>",
+                                  "<b>@patriciaXmusic joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -602,7 +602,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure @musicbot14robo is not banned in group."
-                                  "\n\nOr manually add @musicbot14robo to your Group and try again</b>",
+                                  "\n\nOr manually add @patriciaXmusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "musicbot14robo"
+        user.first_name =  "patriciaXmusic"
     usar = user
     wew = usar.id
     try:
@@ -723,7 +723,7 @@ async def jiosaavn(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@musicbot14robo userbot joined your chat</b>",
+                                  "<b>@patriciaXmusic userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -776,7 +776,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join Updates Channel",
-                   url='https://t.me/CheemsUserbot')
+                   url='https://t.me/patricia_updates')
              ],
              [       
                InlineKeyboardButton(
