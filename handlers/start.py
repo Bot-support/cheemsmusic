@@ -11,7 +11,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am  Music Bot, that lets you play music in your Telegram groups voice chat if you need any help ask here @CheemsUserbot.
+🔥I am  Music Bot, that lets you play music in your Telegram groups voice chat.
+🔥if you need any help ask here @patricia_support.
 
 
 Use the buttons below to know more about me.""",
@@ -19,22 +20,22 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS", url="https://telegra.ph/tgvc8robot-vctgassistant8-04-27"
+                        "⚒ COMMANDS", url="https://telegra.ph/patricia-05-17"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/CheemsBotChat"
+                        "🔥Owner🔥", url="https://t.me/piroXpower"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/CheemsUserbot"
+                        "⚜️Channel⚜️", url="https://t.me/patricia_updates"
                     ),
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/CheemsUserbot" )
+                        "⚡Support⚡", url="https://t.me/patricia_support" )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add Me", url="http://t.me/musicbot14robot?startgroup=true"
+                        "🔥ADD🔥", url="http://t.me/patriciaXmusic_bot?startgroup=true"
                     )
                 ]
             ]
