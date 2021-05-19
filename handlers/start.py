@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & filters.private
     & ~ filters.edited
 )
-GROUP_MUSIC_PROBOT_IMG= "https://telegra.ph/file/ec6f7ebb2bcb456902712.jpg"
+
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
